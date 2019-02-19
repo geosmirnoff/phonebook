@@ -1,0 +1,31 @@
+.wrap-login {
+	width: 530px;
+	margin: auto;
+}
+
+.login-form {
+	margin-top: 100px;
+	padding: 50px 50px 30px 160px;
+	border: 2px solid #efefef;
+	border-radius: 5px;
+}
+
+.my-btn {
+	border: 0px;
+	background-color: #009688;
+	color: #fff;
+	font-size: 0.9em;
+}
+
+.my-btn:hover {
+	color: #fff;
+	background-color: #008080;
+}
+
+input[type=text], input[type=password] {
+	margin-bottom: 20px;
+}
+
+.error {
+	color: #f00;
+}

@@ -1,0 +1,125 @@
+@import url("css/skeleton.css");
+@import url("css/normalize.css");
+html, body {
+	font-family: arial;
+	margin: 0px;
+	height: 100%;
+	
+}
+
+.nav {
+	background-color: #252b33;
+	padding-right: 10px;
+	width: 210px;
+	min-height: 100%;
+	color: #74818f;
+	font-size: 1.1em;
+	vertical-align: top;
+	float: left;
+	display: inline-block;
+}
+
+.logo {
+	background-color: #009688;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #fff;
+	height: 40px;
+	width: 210px;
+	float: left;
+	font-size: 1.2em;
+}
+
+.logo > a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-title {
+	background-color: #74818f;
+	color: #fff;
+	padding-left: 10px;
+	width: 100%;
+}
+
+.nav-ul {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.main {
+	background-color: #fff;
+	overflow-y: scroll;
+	height: 100%;
+}
+
+.titles {
+	padding-top: 10px;
+	padding-left: 10px;
+	/*margin-bottom: 20px;*/
+	height: 40px;
+	font-size: 1.2em;
+	color: #252b33;
+	min-width: 400px;
+	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.titles > div {
+	display: inline-block;
+}
+
+.exit {
+	float: right;
+	padding-right: 10px;
+	margin-top: -5px;
+}
+
+.my-btn {
+	border: 0px;
+	background-color: #009688;
+	color: #fff;
+	font-size: 0.9em;
+}
+
+.my-btn:hover {
+	color: #fff;
+	background-color: #008080;
+}
+
+.content {
+	padding-left: 10px;
+	padding-top: 20px;
+	/*width: 100%;*/
+}
+
+.nav > ul {
+	list-style: none;
+}
+
+.non-style + ul > li {
+	list-style: none;
+}
+
+.menu {
+	color: #fff;
+}
+
+.menu:hover {
+	text-decoration: none;
+}
+
+.menu:visited {
+	color: #fff;
+}
+
+table {
+	margin-left: 10px;
+}
+td {
+	padding: 5px;
+}
+
+#advice {
+	color: #f00;
+	visibility: hidden;
+}
